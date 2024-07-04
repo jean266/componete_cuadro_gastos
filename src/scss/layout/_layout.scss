@@ -1,3 +1,7 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
 
+.container_main {
+    width: 90%;
+    margin: 5rem auto;
+}

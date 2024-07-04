@@ -4,17 +4,19 @@ Esta es una solución al [desafío del componente de gráfico de gastos en Front
 
 ## Índice
 
-- [Descripción general](#descripción general)
-- [El desafío](#el-desafío)
-- [Captura de pantalla](#captura-de-pantalla)
-- [Enlaces](#enlaces)
-- [Mi proceso](#mi-proceso)
-- [Creado con](#creada-con)
-- [Lo que aprendí](#lo-que-aprendí)
-- [Desarrollo continuo](#desarrollo-continuo)
-- [Recursos útiles](#recursos-útiles)
-- [Autor](#autor)
-- [Agradecimientos](#agradecimientos)
+- [Frontend Mentor - Solución del componente de gráfico de gastos](#frontend-mentor---solución-del-componente-de-gráfico-de-gastos)
+  - [Índice](#índice)
+  - [Descripción general](#descripción-general)
+    - [El desafío](#el-desafío)
+    - [Captura de pantalla](#captura-de-pantalla)
+      - [Diseño Escritorio](#diseño-escritorio)
+      - [Diseño Movil](#diseño-movil)
+    - [Enlaces](#enlaces)
+  - [Mi proceso](#mi-proceso)
+    - [Creado con](#creado-con)
+    - [Lo que aprendí](#lo-que-aprendí)
+    - [Recursos útiles](#recursos-útiles)
+  - [Autor](#autor)
 
 ## Descripción general
 
@@ -30,12 +32,16 @@ Los usuarios deberían poder:
 
 ### Captura de pantalla
 
-![](./screenshot.jpg)
+#### Diseño Escritorio
+![](./Desktop-design.png)
+
+#### Diseño Movil
+![](./Mobile-design.png)
 
 ### Enlaces
 
 - URL de la solución: [GitHub](https://github.com/jean266/componete_cuadro_gastos)
-- URL del sitio en vivo: [Vercel]()
+- URL del sitio en vivo: [Vercel](https://componete-cuadro-gastos.vercel.app/)
 
 ## Mi proceso
 

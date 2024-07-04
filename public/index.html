@@ -2,42 +2,87 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Expenses chart component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
 
-  My balance
-  $921.48
+  <main class="container_main">
+    <header class="header"> <!-- .header -->
+      <div class="header_info">
+        <h1 class="header_info-title">My balance</h1>
+        <p class="header_info-balance">&#36<span id="balance">921.48</span></p>
+      </div>
 
-  Spending - Last 7 days
+      <div class="header_imagen">
+        <img src="assets/images/logo.svg" alt="logo">
+      </div>
+    </header> <!-- .header -->
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
+    <article class="content"> <!-- .content -->
+      <h2 class="content_title">Spending - Last 7 days</h2>
 
-  Total this month
-  $478.33
+      <div class="content_graphic"> <!-- .content_graphic -->
+        <ul>
+          <li>
+            <span class="content_graphic-rod" id="mon"></span>
+            <p class="content_graphic-day">mon</p>
+          </li>
+          
+          <li>
+            <span class="content_graphic-rod" id="tue"></span>
+            <p class="content_graphic-day">tue</p>
+          </li>
+              
+          <li>
+            <span class="content_graphic-rod" id="wed"></span>
+            <p class="content_graphic-day">wed</p>
+          </li>
 
-  +2.4%
-  from last month
+          <li>
+            <span class="content_graphic-rod" id="thu"></span>
+            <p class="content_graphic-day">thu</p>
+          </li>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+          <li>
+            <span class="content_graphic-rod" id="fri"></span>
+            <p class="content_graphic-day">fri</p>
+          </li>
+      
+          <li>
+            <span class="content_graphic-rod" id="sat"></span>
+            <p class="content_graphic-day">sat</p>
+          </li>
+          
+          <li>
+            <span class="content_graphic-rod" id="sun"></span>
+            <p class="content_graphic-day">sun</p>
+          </li>
+        </ul>
+
+      </div> <!-- .content_graphic -->
+
+      <section class="content_results"> <!-- .content_results -->
+
+        <div class="content_results-month">
+          <p>Total this month</p>
+          <p class="style">&#36<span id="total-month">478.33</span></p>
+        </div>
+
+        <div class="content_results-last">
+          <p class="style"><span id="percentage">+2.4</span>&#37</p>
+          <p>from last month</p>
+        </div>
+
+      </section> <!-- .content_results -->
+
+    </article> <!-- .content -->
+  </main>
+  
 </body>
-</html>
+</html>  

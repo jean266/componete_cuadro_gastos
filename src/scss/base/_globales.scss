@@ -9,25 +9,21 @@ html {
     box-sizing: inherit;
 }
 body {
-    font-family: v.$fuente_principal;
-    font-size: 1.4rem;
-    background-color: v.$slate100;
-    color: v.$slate700;
-    font-weight: 500;
-
-    @include m.telefono {
+    font-family: v.$font_main;
+    background-color: v.$cream;
+    color: v.$mediumBrown;
+    
+    @include m.tablet {
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-    }
-    
-    @include m.tablet {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 }
 p {
-    font-size: 1.6rem;
+    font-weight: 400;
+    font-size: 1.4rem;
     margin: 0;
 }
 
@@ -43,9 +39,9 @@ picture {
 
 h1, h2, h3 {
     margin: calc(v.$separacion / 2);
-    font-weight: 300;
+    font-weight: 700;
     text-align: center;
-    color: v.$slate900;
+    color: v.$darkBrown;
 }
 
 h1 {

@@ -1,0 +1,42 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.content {
+    background-color: v.$veryPaleOrange;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+
+    .content_title {
+        font-size: 1.8rem;
+        text-align: left;
+        margin: 0;
+        font-weight: 7
+        00;
+    }
+}
+
+.content_results {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 2px solid v.$cream;
+    padding-top: 2rem;
+    
+    .content_results-month {
+        .style {
+            font-size: 2.7rem;
+            margin-top: .5rem;
+            font-weight: 800;
+            color: v.$darkBrown;
+        }
+    }
+    
+    .content_results-last {
+        .style {
+            text-align: right;
+            margin-bottom: .1rem;
+            font-weight: 800;
+            color: v.$darkBrown;
+        }
+    }
+}
