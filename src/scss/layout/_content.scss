@@ -6,12 +6,19 @@
     padding: 2.5rem 2rem;
     border-radius: 1rem;
 
+    @include m.tablet {
+        padding: 2.8rem;
+    }
+
     .content_title {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
         text-align: left;
         margin: 0;
-        font-weight: 7
-        00;
+        font-weight: 700;
+
+        @include m.tablet {
+            font-size: 2.5rem;
+        }
     }
 }
 
@@ -21,13 +28,21 @@
     align-items: flex-end;
     border-top: 2px solid v.$cream;
     padding-top: 2rem;
+
+    @include m.tablet {
+        padding-top: 2.5rem;
+    }
     
     .content_results-month {
         .style {
-            font-size: 2.7rem;
+            font-size: 3rem;
             margin-top: .5rem;
             font-weight: 800;
             color: v.$darkBrown;
+
+            @include m.tablet {
+                font-size: 4.5rem;
+            }
         }
     }
     
@@ -37,6 +52,10 @@
             margin-bottom: .1rem;
             font-weight: 800;
             color: v.$darkBrown;
+
+            @include m.tablet {
+                font-size: 2rem;
+            }
         }
     }
 }

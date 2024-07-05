@@ -3,8 +3,13 @@
 
 .content_graphic {
     padding: 1.5rem 0;
-    padding-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     height: 15rem;
+
+    @include m.tablet {
+        height: 20rem;
+    }
     
     ul {
         list-style: none;
@@ -30,6 +35,11 @@
             height: 50%;
             background-color: v.$softRed;
             border-radius: .3rem;
+            cursor: pointer;
+
+            &:hover {
+                background-color: lighten(v.$softRed, 10);
+            }
         }
         
         .content_graphic-day {

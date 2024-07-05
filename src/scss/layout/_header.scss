@@ -7,13 +7,19 @@
     justify-content: space-between;
     background-color: v.$softRed;
     color: v.$cream;
-    padding: 2rem 1.5rem;
+    padding: 2rem;
     border-radius: 1rem;
     margin-bottom: 1.5rem;
-
+    padding: 2rem;
+    
+    @include m.tablet {
+        padding: 2.5rem;
+        border-radius: 1.5rem;
+    }
+    
     .header_info-title {
         color: v.$cream;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-weight: 400;
         text-align: left;
         margin: 0;
@@ -21,12 +27,17 @@
     }
 
     .header_info-balance {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         font-weight: 700;
+        color: v.$veryPaleOrange;
+
+        @include m.tablet {
+            font-size: 3rem;
+        }
     }
 
     .header_imagen {
-        width: 5rem;
+        width: 6rem;
         margin-right: .5rem;
     }
 }

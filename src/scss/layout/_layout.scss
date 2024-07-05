@@ -3,5 +3,12 @@
 
 .container_main {
     width: 90%;
+    max-width: 35rem;
     margin: 5rem auto;
+    
+    @include m.tablet {
+        width: 50%;
+        max-width: 45rem;
+        margin: 8rem auto;
+    }
 }
