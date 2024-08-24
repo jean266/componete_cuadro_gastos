@@ -1,0 +1,1 @@
+import Graphic from"./Graphic.js";const graphic=new Graphic;export default class App{constructor(){}initApp(){graphic.getInfo()}}

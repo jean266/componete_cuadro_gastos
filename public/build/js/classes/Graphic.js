@@ -1,0 +1,1 @@
+import UI from"./UI.js";const ui=new UI;export default class Graphic{constructor(){}async getInfo(){try{const o="data/data.json",t=await fetch(o).then((o=>o.json()));ui.showInfo(t)}catch(o){console.error("** A ocurrido un error en la peticion Fetch **",o)}}}

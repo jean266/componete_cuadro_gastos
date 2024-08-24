@@ -14,8 +14,6 @@ Esta es una solución al [desafío del componente de gráfico de gastos en Front
     - [Enlaces](#enlaces)
   - [Mi proceso](#mi-proceso)
     - [Creado con](#creado-con)
-    - [Lo que aprendí](#lo-que-aprendí)
-    - [Recursos útiles](#recursos-útiles)
   - [Autor](#autor)
 
 ## Descripción general
@@ -50,30 +48,10 @@ Los usuarios deberían poder:
 - Marcado HTML5 semántico
 - Propiedades personalizadas CSS
 - Flexbox
-- Cuadrícula CSS
 - Flujo de trabajo para dispositivos móviles
-
-### Lo que aprendí
-
-```html
-<h1>Algunos códigos HTML del que estoy orgulloso</h1>
-```
-```css
-.proud-of-this-css {
-color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-console.log('🎉')
-}
-```
-
-### Recursos útiles
-
-- [Recurso de ejemplo 1](https://www.example.com): esto me ayudó por XYZ. Realmente me gustó este patrón y lo usaré en el futuro.
-
+- Gulp
+- SASS
+- 
 ## Autor
 
 - Mentor de frontend: [@jean266](https://www.frontendmentor.io/profile/jean266)
-- Twitter: [@yourusername](https://www.twitter.com/yourusername)
