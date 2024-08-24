@@ -30,10 +30,10 @@ Los usuarios deberían poder:
 
 ### Captura de pantalla
 
-#### Diseño Escritorio
+**Diseño Escritorio**
 ![](./Desktop-design.png)
 
-#### Diseño Movil
+** Diseño Movil**
 ![](./Mobile-design.png)
 
 ### Enlaces
